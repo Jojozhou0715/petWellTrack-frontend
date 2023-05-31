@@ -1,0 +1,24 @@
+body {
+    margin-top: 70px;
+    /* background-color: #b3d6f0; */
+    background-color: white;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .landing {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .title {
+    color: rgb(246, 242, 242);
+    font-size: 1em;
+  }
+  
+  .landingText {
+    color: #2a2825;
+  }

@@ -1,0 +1,112 @@
+  .section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin-top: -10px;
+  }
+
+  .registerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 20em;
+  }
+  
+  .formContainer{
+    margin-bottom: 110px;
+  }
+  
+  .registerInput{
+    width: 16.5em;
+    height: 1.8em;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    border-radius: 0.3rem;
+  }
+  
+  .signupImg{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    min-height: 100%; 
+    /* object-fit: cover; */  
+  }
+  
+  .leftContainer {
+    min-height: 100vh;
+    width: 56%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;  
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    /* margin-bottom: 10px; */
+  }
+  
+  .rightContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 44%;
+    height: 100vh;
+    z-index: 50;
+    background-color: #92c2ea;
+  }
+  
+  .spanP{
+    color: white;
+    font-size: 22px;
+  }
+  
+  .registerP{
+    position: relative;
+    top: 10px;
+    font-size: 26px;
+    margin-left: 65px;
+  }
+  
+  .signUp{
+    position: relative;
+    margin: 0.5em;
+    margin-left: 130px;
+    background-color: #4f9fe1;
+    border: none;
+    border-radius: 3rem;
+    font-size: 15px;
+    width: 97px;
+    color: white;
+    height: 35px;
+  }
+  
+  .loginLink{
+    text-decoration: none;
+    font-size: 22px;
+    color: #5ca8e7
+  }
+  
+  .loginLink:hover{
+    /* font-size: 20px; */
+    color: white;
+  }
+  
+  /* .regErr {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 40px;
+    left: 10px;
+  } */
+  
