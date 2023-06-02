@@ -1,0 +1,56 @@
+.container{
+    margin: 95px 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 500px;
+   
+  }
+  
+  .singlePet{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    height: 300px;
+    width: 200px;
+    background-color: #bfbdbd;
+    margin-top: 30px;
+    border-radius: .9rem;
+     /* box-shadow: -1px 5px 19px -5px black; */
+     box-shadow: 1px 2px 8px 2px #bfbdbd
+  }
+  
+  .image{
+    height: 130px;
+    border-radius: 2rem;
+    width: 130px;
+    box-shadow: 1px 2px 8px 2px #bfbdbd
+  }
+
+  .container h5{
+    font-size: 25px;
+    color: black;
+  }
+
+  .link{
+    text-decoration: none;
+  }
+  
+  /* .name {
+    font-size: 1.93rem;
+  } */
+
+  /* .linkH1{ 
+    color: rgb(247, 245, 245);
+    text-decoration: none;
+    position: relative;
+    bottom: 60px;
+    right: 25px;
+  }
+  
+  .linkH1:hover{
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+  } */

@@ -1,0 +1,23 @@
+.box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    height: 600px;
+    width: 400px; 
+    background-color: rgb(244, 239, 231);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: aliceblue;
+}
+
+.box h5{
+    margin: 10px;
+}

@@ -1,4 +1,4 @@
-  .section{
+  /* .section{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,6 +6,18 @@
     min-height: 100vh;
     min-width: 100vw;
     margin-top: -10px;
+  } */
+  .section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+    min-height: 100vh;
+    min-width: 100vw;
+    height: 100vh;
+    background: url('https://cdn.pixabay.com/photo/2015/07/27/19/11/beach-863139_1280.jpg')no-repeat center center / cover;
+    margin-top: -10px;
+   
   }
 
   .registerForm{
@@ -16,26 +28,28 @@
   }
   
   .formContainer{
-    margin-bottom: 110px;
+    /* margin-bottom: 60px; */
+    position: relative;
+    top: -135px;
   }
   
   .registerInput{
-    width: 16.5em;
+    width: 16.3em;
     height: 1.8em;
     margin-bottom: 1rem;
     font-size: 1.3rem;
     border-radius: 0.3rem;
   }
   
-  .signupImg{
+  /* .signupImg{
     max-width: 100%;
     min-width: 100%;
     max-height: 100%;
     min-height: 100%; 
-    /* object-fit: cover; */  
-  }
+    object-fit: cover;  
+  } */
   
-  .leftContainer {
+  /* .leftContainer {
     min-height: 100vh;
     width: 56%;
     background-size: cover;
@@ -43,19 +57,23 @@
     display: flex;
     justify-content: center;
     object-fit: cover;  
-  }
+  } */
   
   .header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    color: white;
-    /* margin-bottom: 10px; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    /* align-items: center; */
+    color: rgb(17, 16, 16);
+    font-weight: 500;
+    /* margin-bottom: 2rem; */
+    position: relative;
+    top: -100px;
+    margin-left: -70px;
   }
   
-  .rightContainer {
+  /* .rightContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,49 +82,65 @@
     height: 100vh;
     z-index: 50;
     background-color: #92c2ea;
-  }
+  } */
   
+  
+  .signupBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 32%; */
+    width: 470px;
+    height: 75vh;
+    z-index: 50;
+    /* background-color: #92c2ea; */
+    background-color: rgb(246, 248, 250); 
+    border-radius: .5rem;
+    position: relative;
+    left: -100px;
+  }
+
   .spanP{
-    color: white;
+    color: rgb(19, 19, 19);
     font-size: 22px;
   }
   
   .registerP{
     position: relative;
-    top: 10px;
-    font-size: 26px;
+    top: 17px;
+    font-size: 33px;
     margin-left: 65px;
   }
   
   .signUp{
     position: relative;
     margin: 0.5em;
-    margin-left: 130px;
-    background-color: #4f9fe1;
+    margin-left:-1px;
+    background-color: #18191a;
     border: none;
-    border-radius: 3rem;
-    font-size: 15px;
-    width: 97px;
-    color: white;
-    height: 35px;
+    border-radius: .3rem;
+    font-size: 16px;
+    color: rgb(241, 236, 236);
+    width: 21.71em;
+    height: 2.73em;
   }
   
   .loginLink{
     text-decoration: none;
     font-size: 22px;
-    color: #5ca8e7
+    color: #3f4142
   }
   
   .loginLink:hover{
     /* font-size: 20px; */
-    color: white;
+    color: rgb(43, 41, 41);
   }
-  
-  /* .regErr {
-    color: white;
-    font-size: 20px;
+
+  .image{
     position: relative;
-    bottom: 40px;
-    left: 10px;
-  } */
+    top: 35px;  
+    width: 240px;
+  }
+
   

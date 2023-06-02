@@ -1,10 +1,11 @@
 import styles from './landing.module.css'
 import NavBar from '../../components/NavBar/NavBar'
 
-const Landing = ({ user }) => {
+const Landing = ({ user, handleLogout }) => {
   return (
     <main>
-      <NavBar user={user} isLandingPage={true} />
+      {/* <NavBar user={user} isLandingPage={true} handleLogout={handleLogout}/> */}
+      {/* <NavBar user={user} handleLogout={handleLogout}/> */}
       <div className={styles.landing}>
         <div className={styles.title}>
           <h1>{user ? `Welcome back, ${user.name[0].toUpperCase()+ user.name.substring(1)}` : null}</h1>

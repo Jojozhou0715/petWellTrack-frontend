@@ -1,9 +1,10 @@
 body {
-    margin-top: 70px;
+    /* margin-top: 70px; */
     /* background-color: #b3d6f0; */
     background-color: white;
-    color: white;
+    color: rgb(17, 16, 16);
     font-size: 30px;
+
   }
   
   .landing {
@@ -20,5 +21,6 @@ body {
   }
   
   .landingText {
+    margin-top: 900px;
     color: #2a2825;
   }

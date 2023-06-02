@@ -1,35 +1,37 @@
 .container {
     /* background: #a2cced; */
-    background: #92c2ea;
-    /* background: #a6d1e7; */
-    top: 0; 
-    z-index: 1000;
+    /* background: #92c2ea; */
+    /* background: #76bfdb; */
+    /* top: 0;  */
+    /* z-index: 1000;
     width: 100%;
-    height: 60px;
+    top: 0; */
+    height: 70px;
     display: flex;
-    justify-content: end;
-    position: fixed;
+    justify-content: space-between;
+    /* position: fixed; */
     align-items: center;
   }
 
-  .landingNavLink{
+  /* .landingNavLink{
     text-decoration: none;
     font-size: 20px;
     color: #1f1f21;
     font-weight: 500;  
-  }
+  } */
 
-  .landingNav {
+  /* .landingNav {
     background: white;
     top: 0; 
     z-index: 1000;
-    width: 100%;
-    height: 60px;
+    width: 100%; 
+    top: 0;
+    height: 70px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     position: fixed;
     align-items: center;
-  }
+  }  */
   
   .navUl {
     display: flex;
@@ -43,7 +45,7 @@
   .navLink {
     text-decoration: none;
     font-size: 20px;
-    color: #eeeef4;
+    color: #7272ac;
     font-weight: 500;  
   }
   
@@ -53,4 +55,8 @@
   
   .navLink:hover {
     color: #5c95d7;
+  }
+
+  .image{
+    width: 240px;
   }
