@@ -11,6 +11,7 @@
     justify-content: space-between;
     /* position: fixed; */
     align-items: center;
+    box-shadow: 1px 2px 8px 2px #d6d3d3;
   }
 
   /* .landingNavLink{
@@ -45,7 +46,7 @@
   .navLink {
     text-decoration: none;
     font-size: 20px;
-    color: #7272ac;
+    color: #030303;
     font-weight: 500;  
   }
   

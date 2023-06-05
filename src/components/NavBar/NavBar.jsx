@@ -12,7 +12,7 @@ const NavBar = ({ user, handleLogout, isLandingPage}) => {
      {user ?
        <ul className={styles.navUl}>
         <li><Link to='/mypets' className={styles.navLink}>My Pets</Link></li>
-        <li><Link to='/pets' className={styles.navLink}>Add</Link></li>
+        <li><Link to='/mypets/new' className={styles.navLink}>New Pet</Link></li>
         <li><Link to='/login' onClick={handleLogout} className={styles.navLink}>Logout</Link></li>
        </ul>
       :

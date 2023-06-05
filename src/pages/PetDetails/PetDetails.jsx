@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react"
-import { useParams } from "react-router-dom"
+import { useParams, Link } from "react-router-dom"
 import styles from './PetDetails.module.css'
 
 import * as petService from '../../services/petService'
@@ -32,6 +32,14 @@ const PetDetails = (props) => {
                  <h5>{pet.microchipNo}</h5>
                  <h5>{pet.vaccination}</h5>
                  <h5>{pet.medicalRecord}</h5>
+
+                 {pet.owner._id === props.user.profile &&
+                 <>
+                 <Link to={`/mypets/${id}/edit`} state={pet}>Edit</Link>
+                 <button onClick={() => props.handleRemovePet(id)}>Delete</button>
+                 </>
+                 }
+                 
                 </div>    
 
         </main>

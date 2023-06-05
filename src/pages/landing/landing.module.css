@@ -2,25 +2,323 @@ body {
     /* margin-top: 70px; */
     /* background-color: #b3d6f0; */
     background-color: white;
-    color: rgb(17, 16, 16);
+    /* color: rgb(254, 216, 120); */
+    /* color: white; */
+    /* color: black; */
     font-size: 30px;
+    
+  }
+ 
+.head {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  background: url('https://www.thelist.com/img/gallery/how-to-tell-if-your-pet-is-really-sick/l-intro-1628618761.jpg')no-repeat center center / cover;
+  height: 450px;
+  
+}
 
-  }
+/* .title { */
+  /* background: url('https://img.freepik.com/free-vector/frame-with-dogs-vector-white-background_53876-127700.jpg?w=2000')no-repeat center center / cover; */
+  /* height: 400px; */
+/* } */
+/* .title{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+} */
+
+.head h2{
+  font-size: 35px;
+  font-weight: 700;
+  position: relative;
+  left: -21px;
+  text-align: left;
+}
+
+.head p{
+  font-size: 20px;
+  margin: 5px;
+  text-align: left;
+
+}
+
+.divP{
+  position: relative;
+  top: 70px;
+  left: -47px;
+}
+
+.divH2{
+  position: relative;
+  top: 80px;
+}
+
+/* .divH2 span{
+  position: relative;
+  left: -36px;
+} */
+
+.landingText {
+  margin-top: 900px;
+  color: #2a2825;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container img{
+  height: 190px;
+  width: 190px;
+  border-radius: 7rem;
+  margin: 18px;
+}
+
+.container p{
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.container{
+  color: black;
+  font-size: 40px;
+}
+
+.dog{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.cat{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.horse{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.bird{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.rabbit{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.hamster{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.goal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(152 218 243);
+  margin-top: 60px;
+  padding: 60px 0;
+}
+
+.goal h5{
+  font-size: 33px;
+  position: relative;
+  top: 10px;
+  /* left: 110px; */
+}
+
+.words{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* position: relative;
+  left: -50px; */
+  width: 500px;
+  position: relative;
+  top: -40px;
+  left: -30px;
+
+}
+
+
+.goal img{
+  height: 380px;
+  width: 430px;
+  border-radius: 1rem;
+  position: relative;
+  left: 30px;
+}
+
+.goal p{
+  font-size: 18px;
+  text-align: left;
+  /* margin: 110px; */
+  line-height: 1.5;
+  /* position: relative;
+  top: -30px; */
+  margin: 8px 0;
+}
+
+/* .imgSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   
-  .landing {
+  min-width: 100vw;
+} */
+
+.tips{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin: 80px; */
+}
+
+.tips img{
+  height: 190px;
+  width: 285px;
+  border-radius: 1rem;
+  /* margin: 20px; */
+}
+
+.tips p{
+  font-size: 23px;
+}
+
+.one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16.5px;
+}
+
+.two{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16.5px;
+}
+
+.three{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16.5px;
+}
+
+.four{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 16.5px;
+}
+
+.tipsContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tipsContainer h5{
+  font-size: 30px;
+  margin-top: 75px;
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 95%;
+  margin: 50px auto;
+  padding: 50px 0;
+  position: relative;
+  border-radius: .3rem;
+  box-shadow: 1px 2px 8px 2px #d5d3d3;
+}
+
+.about img{
+  /* background: url('https://img.freepik.com/free-photo/owner-s-hand-stroking-her-dog-head-sunlight_23-2148045798.jpg?w=900&t=st=1685986131~exp=1685986731~hmac=51416889f8c866c3bc764a0f73fad9a286dfd93fc568ca430d2b7924df4b2282')no-repeat center center / cover; */
+  height: 450px;
+  width: 450px;
+  /* margin: 0; */
+  border-radius: 17rem;
+  /* position: relative;
+  left: -80px; */
+
+}
+
+.aboutWords{
+  display: flex;
+  flex-direction: column;
+  /* justify-content:center; */
+  width: 600px;
+  /* position: relative;
+  right: -100px; */
+  
+} 
+
+.about h4{
+  margin: 30px 0;
+}
+/* .aboutP{
+  width: 1000px;
+} */
+
+.about p{
+  font-size: 18px;
+  text-align: left;
+  line-height: 1.4;
+  margin: 9px 0;
+}
+
+/* .about h4{
+  position: relative;
+  right: 70px;
+  top: 20px;
+
+} */
+
+@media screen and (max-width: 1000px) {
+  .goal{
     display: flex;
-    align-items: center;
-    text-align: center;
     flex-direction: column;
-    width: 100%;
+    justify-content: center;
   }
   
-  .title {
-    color: rgb(246, 242, 242);
-    font-size: 1em;
-  }
-  
-  .landingText {
-    margin-top: 900px;
-    color: #2a2825;
-  }
+}

@@ -15,9 +15,17 @@
     flex-direction: row;
     min-height: 100vh;
     min-width: 100vw;
-    background-color: aliceblue;
+    /* background-color: rgb(251 212 116); */
+    /* background-color: rgb(152 218 243); */
+    background-color: rgb(158 203 221);
+    background-color: rgb(145 197 217);
 }
 
 .box h5{
     margin: 10px;
+}
+
+.image{
+    height: 300px;
+    width: 400px;
 }

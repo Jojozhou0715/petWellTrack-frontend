@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import styles from './Signup.module.css'
 import * as authService from '../../services/authService'
-import logo from '../../images/PetWellTrack3.png'
 
 const SignnupForm = (props) => {
     const navigate = useNavigate()
@@ -44,7 +43,7 @@ return(
     <section className={styles.section}>
         <div className={styles.signupBox}>
             {/* <div className={styles.formBox}> */}
-           <Link to='/'><img className={styles.image} src={logo} alt="logo"/></Link>
+           {/* <Link to='/'><img className={styles.image} src={logo} alt="logo"/></Link> */}
         <div className={styles.header}>
         <p className={styles.registerP}>Sign up</p>
         <p>{message}</p>

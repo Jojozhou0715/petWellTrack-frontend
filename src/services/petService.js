@@ -45,8 +45,40 @@ const create = async (petData) => {
   }
 }
 
+const update = async (petData) => {
+  try {
+    const res = await fetch(`${BASE_URL}/${petData._id}`, {
+        method: 'PUT',
+        headers: {
+            'Authorization': `Bearer ${tokenService.getToken()}`,
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(petData)
+    })
+    return res.json()
+  } catch (error) {
+    console.log(error)
+  }
+}
+
+const deletePet = async (id) => {
+  try {
+    const res = await fetch(`${BASE_URL}/${id}`, {
+        method: 'DELETE',
+        headers: {
+            'Authorization': `Bearer ${tokenService.getToken()}`,
+        },
+    })
+    return res.json()
+  } catch (error) {
+    console.log(error)
+  }
+}
+
 export { 
   index,
   show,
-  create
+  create,
+  update,
+  deletePet
 }

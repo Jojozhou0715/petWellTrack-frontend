@@ -11,10 +11,13 @@ import Signup from './pages/Signup/Signup'
 import Landing from './pages/Landing/landing'
 import PetList from './pages/PetList/petList'
 import PetDetails from './pages/PetDetails/PetDetails'
+import AddPet from './pages/AddPet/AddPet';
+import EditPet from './pages/EditPet/EditPet';
 
 //components
 import NavBar from './components/NavBar/NavBar';
 import ProtectedRoute from './components/ProtectedRoute/PortectedRoute';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const navigate = useNavigate()
@@ -49,6 +52,21 @@ function App() {
     navigate('/mypets')
   }
 
+  const handleUpdatePet = async (petData) => {
+    const updatedPet = await petService.update(petData)
+    const updatedPetData = pets.map(pet => {
+      return petData._id === pet._id ? updatedPet : pet
+    })
+    setPets(updatedPetData)
+    navigate('/mypets')
+  }
+
+  const handleRemovePet = async (id) => {
+    const removedPet = await petService.deletePet(id)
+    setPets(pets.filter(pet => pet._id !== removedPet._id))
+    navigate('/mypets')
+  }
+
   useEffect(()=>{
     const fetchAllPets = async () => {
       const data = await petService.index()
@@ -70,7 +88,7 @@ function App() {
     <Route path='/signup' element={<Signup handleSignupOrLogin={handleSignupOrLogin} />} />
     <Route path='/mypets' element={
       <ProtectedRoute user={user}>
-        <PetList pets={pets}/>
+        <PetList profile={profile} pets={pets}/>
       </ProtectedRoute>
     }
     />
@@ -80,13 +98,26 @@ function App() {
       </ProtectedRoute>
     }
     /> */}
-     <Route path='/mypets/:id' element={
-      <ProtectedRoute user={user}>
-        <PetDetails user={user}/>
-      </ProtectedRoute>
+    <Route path='/mypets/:id' element={
+    <ProtectedRoute user={user}>
+      <PetDetails user={user} handleRemovePet={handleRemovePet}/>
+    </ProtectedRoute>
+    }
+    />
+    <Route path='/mypets/new' element={
+    <ProtectedRoute user={user}>
+      <AddPet handleAddPet={handleAddPet}/>
+    </ProtectedRoute>
+    }
+    />
+     <Route path='/mypets/:id/edit' element={
+    <ProtectedRoute user={user}>
+      <EditPet handleUpdatePet={handleUpdatePet}/>
+    </ProtectedRoute>
     }
     />
    </Routes> 
+   <Footer/>
    </>
 
   );

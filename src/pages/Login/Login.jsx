@@ -2,8 +2,6 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import styles from './Login.module.css'
 import * as authService from '../../services/authService'
-import logo from '../../images/PetWellTrack3.png'
-import NavBar from '../../components/NavBar/NavBar'
 
 const LoginForm = (props) => {
     const navigate = useNavigate()
@@ -41,7 +39,7 @@ return (
         {/* <img className={styles.loginImg} src="https://imgix.bustle.com/uploads/image/2018/5/17/717eb285-bbbc-48ef-a291-d5eea5e45d51-fotolia_194955015_subscription_monthly_m.jpg?w=800&fit=crop&crop=faces&auto=format%2Ccompress" alt="" />
         </div> */}
         <div className={styles.loginBox}>
-        <Link to='/'><img className={styles.image} src={logo} alt="logo"/></Link>
+        {/* <Link to='/'><img className={styles.image} src={logo} alt="logo"/></Link> */}
         <div className={styles.loginHeader}>
             <p className={styles.welcome}>Welcome back</p>
         </div>

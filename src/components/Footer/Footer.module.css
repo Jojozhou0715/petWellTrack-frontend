@@ -1,0 +1,46 @@
+.footer{
+     /* background-color: rgb(152 218 243);
+     background-color: rgb(176, 217, 233); */
+    background-color: rgb(251, 251, 251);
+    padding-bottom: 7px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 29px;
+    padding-right: 28px;
+}
+
+hr{
+    margin: 0;
+    border: none;
+    height: .4px;
+    width: 100%;
+    /* margin: 0 auto; */
+    background-color: rgb(201, 198, 198);
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.footer p{
+    font-size: 15px;
+    padding: 0 10px;
+}
+
+/* .github{
+  width: 33.5px;
+  height: 33.5px;
+  border-radius: 2rem;
+  margin: 6px;
+} */
+
+.tag{
+    padding: 0 5px;
+    color: black;
+}
