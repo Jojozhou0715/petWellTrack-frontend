@@ -1,10 +1,7 @@
 body {
-    /* margin-top: 70px; */
     /* background-color: #b3d6f0; */
     background-color: white;
     /* color: rgb(254, 216, 120); */
-    /* color: white; */
-    /* color: black; */
     font-size: 30px;
     
   }
@@ -20,30 +17,24 @@ body {
   
 }
 
-/* .title { */
-  /* background: url('https://img.freepik.com/free-vector/frame-with-dogs-vector-white-background_53876-127700.jpg?w=2000')no-repeat center center / cover; */
-  /* height: 400px; */
-/* } */
-/* .title{
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  justify-content: left;
-} */
-
 .head h2{
   font-size: 35px;
+  color: rgb(22, 21, 21);
   font-weight: 700;
   position: relative;
   left: -21px;
   text-align: left;
+  top: 45px;
 }
 
 .head p{
   font-size: 20px;
   margin: 5px;
   text-align: left;
-
+  color: rgb(22, 21, 21);
+  position: relative;
+  top: 65px;
+  line-height: 1.1;
 }
 
 .divP{
@@ -56,11 +47,6 @@ body {
   position: relative;
   top: 80px;
 }
-
-/* .divH2 span{
-  position: relative;
-  left: -36px;
-} */
 
 .landingText {
   margin-top: 900px;
@@ -79,6 +65,15 @@ body {
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.container h5{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.title{
+  margin: 55px 0;
 }
 
 .container img{
@@ -108,35 +103,30 @@ body {
 .cat{
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
 .horse{
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
 .bird{
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
 .rabbit{
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
 .hamster{
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -153,21 +143,18 @@ body {
 .goal h5{
   font-size: 33px;
   position: relative;
-  top: 10px;
-  /* left: 110px; */
+  top: -20px;
+  color: rgb(22, 21, 21);
+  font-weight: 650;
 }
 
 .words{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* position: relative;
-  left: -50px; */
   width: 500px;
   position: relative;
-  top: -40px;
   left: -30px;
-
 }
 
 
@@ -182,39 +169,26 @@ body {
 .goal p{
   font-size: 18px;
   text-align: left;
-  /* margin: 110px; */
   line-height: 1.5;
-  /* position: relative;
-  top: -30px; */
   margin: 8px 0;
 }
-
-/* .imgSection{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  
-  min-width: 100vw;
-} */
 
 .tips{
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  /* margin: 80px; */
 }
 
 .tips img{
   height: 190px;
   width: 285px;
   border-radius: 1rem;
-  /* margin: 20px; */
 }
 
 .tips p{
-  font-size: 23px;
+  font-size: 22px;
+  margin-top: 20px;
 }
 
 .one{
@@ -257,7 +231,8 @@ body {
 
 .tipsContainer h5{
   font-size: 30px;
-  margin-top: 75px;
+  margin: 55px 0;
+  font-weight: 600;
 }
 
 .about{
@@ -276,29 +251,21 @@ body {
   /* background: url('https://img.freepik.com/free-photo/owner-s-hand-stroking-her-dog-head-sunlight_23-2148045798.jpg?w=900&t=st=1685986131~exp=1685986731~hmac=51416889f8c866c3bc764a0f73fad9a286dfd93fc568ca430d2b7924df4b2282')no-repeat center center / cover; */
   height: 450px;
   width: 450px;
-  /* margin: 0; */
   border-radius: 17rem;
-  /* position: relative;
-  left: -80px; */
-
 }
 
 .aboutWords{
   display: flex;
   flex-direction: column;
-  /* justify-content:center; */
   width: 600px;
-  /* position: relative;
-  right: -100px; */
-  
 } 
 
 .about h4{
   margin: 30px 0;
+  font-weight: 700;
+  font-size: 33px;
+  color: rgb(22, 21, 21);
 }
-/* .aboutP{
-  width: 1000px;
-} */
 
 .about p{
   font-size: 18px;
@@ -307,18 +274,123 @@ body {
   margin: 9px 0;
 }
 
-/* .about h4{
-  position: relative;
-  right: 70px;
-  top: 20px;
 
-} */
-
-@media screen and (max-width: 1000px) {
+@media (max-width: 767px) {
+  .head {
+    height: 200px; 
+    background-position: center;
+  }
+  .head h2{
+     display: none;
+  }
+  .head p{
+    display: none;
+  }
   .goal{
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  
+
+  .goal img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 10px;
+  }
+
+  .words{
+    width: 350px;
+    position: relative;
+    left: 30px;
+    top: 45px;
+  }
+  .tipsContainer h5{
+    font-size: 22px;
+    margin: 55px 0;
+    font-weight: 700;
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+ 
+  }
+  .about img{
+    height: 380px;
+    width: 380px;
+    border-radius: 17rem;
+    position: relative;
+    left: 70px;
+    top: 50px;
+    margin-bottom: 40px;
+  }
+  .aboutWords{
+    width: 430px;
+    position: relative;
+    left: 40px;
+  }
+  .aboutWords p{
+    font-size: 16px;
+  }
+
 }
+
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .goal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .goal img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 10px;
+  }
+
+  .words{
+    width: 350px;
+    position: relative;
+    left: 30px;
+    top: 45px;
+  }
+  .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+ 
+  }
+  .about img{
+    height: 380px;
+    width: 380px;
+    border-radius: 17rem;
+    position: relative;
+    left: 295px;
+    top: 50px;
+    margin-bottom: 40px;
+  }
+  .aboutWords{
+    width: 500px;
+    position: relative;
+    left: 240px;
+  }
+
+}
+
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+  
+
+}
+

@@ -29,7 +29,7 @@
   .formContainer{
     /* margin-bottom: 60px; */
     position: relative;
-    top: -40px;
+    top: -35px;
 
   }
   
@@ -73,18 +73,6 @@
     margin-left: -70px;
   }
   
-  /* .rightContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 44%;
-    height: 100vh;
-    z-index: 50;
-    background-color: #92c2ea;
-  } */
-  
-  
   .signupBox{
     display: flex;
     flex-direction: column;
@@ -110,8 +98,8 @@
   
   .registerP{
     position: relative;
-    top: 17px;
-    font-size: 33px;
+    top: 13px;
+    font-size: 30px;
     margin-left: 65px;
   }
   
@@ -145,4 +133,18 @@
     width: 240px;
   }
 
-  
+  .errMsg{
+    font-size: 19px;
+    position: relative;
+    left: 30px;
+    top: -15px;
+  }
+
+  @media (max-width: 767px) {
+    .signupBox{
+     width: 365px;
+     position: relative;
+     left: -20px;
+     height: 480px;
+    }
+  } 

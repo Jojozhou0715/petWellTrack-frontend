@@ -4,19 +4,39 @@ function setToken(token) {
   localStorage.setItem('token', token)
 }
 
+// function getToken() {
+//   let token = localStorage.getItem('token')
+//   console.log(token)
+//   if (token) {
+//     const payload = jwt_decode(token)
+//     if (payload.exp < Date.now() / 1000) {
+//       localStorage.removeItem('token')
+//     }
+//   } else {
+//     localStorage.removeItem('token')
+//   }
+//   return token
+// }
+
 function getToken() {
-  let token = localStorage.getItem('token')
-  console.log(token)
+  let token = localStorage.getItem('token');
+  // console.log('Token:', token);
   if (token) {
-    const payload = jwt_decode(token)
-    if (payload.exp < Date.now() / 1000) {
-      localStorage.removeItem('token')
-      token = null
+    try {
+      const payload = jwt_decode(token);
+      if (payload.exp < Date.now() / 1000) {
+        removeToken();
+        token = null;
+      }
+    } catch (error) {
+      console.log('Error decoding token:', error);
+      removeToken();
+      token = null;
     }
   } else {
-    localStorage.removeItem('token')
+    removeToken();
   }
-  return token
+  return token;
 }
 
 function getUserFromToken() {

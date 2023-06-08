@@ -42,11 +42,9 @@ return(
    <>    
     <section className={styles.section}>
         <div className={styles.signupBox}>
-            {/* <div className={styles.formBox}> */}
-           {/* <Link to='/'><img className={styles.image} src={logo} alt="logo"/></Link> */}
         <div className={styles.header}>
-        <p className={styles.registerP}>Sign up</p>
-        <p>{message}</p>
+        <p className={styles.registerP}>Create your account</p>
+        <p className={styles.errMsg}>{message}</p>
         </div>
         <form onSubmit={handleSubmit} className={styles.formContainer}>
             <div className={styles.registerForm}>
@@ -87,11 +85,6 @@ return(
             <p className={styles.registerP}><span className={styles.spanP}>Already sign up?</span> <Link className={styles.loginLink} to="/login">Log in</Link></p> 
         </form> 
         </div>
-        {/* </div> */}
-        {/* <div className={styles.leftContainer}> */}
-    {/* <img className={styles.signupImg} src="https://cdn.pixabay.com/photo/2018/10/01/09/21/pets-3715733_1280.jpg" alt="" /> */}
-    {/* <img className={styles.signupImg} src="https://scitechdaily.com/images/Dog-and-Cat-Pets-Under-Blanket.jpg" alt="" /> */}
-        {/* </div>             */}
     </section>
     </>
     

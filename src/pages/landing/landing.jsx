@@ -1,4 +1,8 @@
 import styles from './landing.module.css'
+import dogLove from '../../images/eyes-closed.jpg'
+import dogFood from '../../images/beautiful-pet-portrait-dog-with-food.jpg'
+import vet from '../../images/vet.jpg'
+import social from '../../images/social.jpg'
 
 const Landing = (props) => {
   return (
@@ -47,7 +51,7 @@ const Landing = (props) => {
           </div>
         </div>        
           <div className={styles.goal}>
-          <img src="https://img.freepik.com/free-photo/close-up-portrait-pleased-girl-with-short-brown-hair-embracing-funny-beagle-dog-with-eyes-closed_197531-4842.jpg?w=996&t=st=1685984134~exp=1685984734~hmac=e64ca80bce178ce7f462078485abcbf963af82e9f221802c17c813b6aae4f3ca" alt="" />
+          <img src={dogLove} alt="dogHug" />
           <div className={styles.words}>
           <h5>Our goal</h5>
           <p>At PetWellTrack, our goal is to empower pet owners with the
@@ -61,22 +65,21 @@ const Landing = (props) => {
         </div>
         <div className={styles.tipsContainer}>
         <h5>Tips to Keep Your Pet Happy and Healthy</h5>
-        <div className={styles.tips}>
-         
+        <div className={styles.tips}>   
           <div className={styles.one}>
             <img src="https://img.freepik.com/premium-photo/sky-blue-wavy-parrot-with-plastic-toy-skateboard-color-background_175086-9.jpg?w=1060" alt="" />
             <p>Give them Toys</p>
           </div>
           <div className={styles.two}>
-            <img src="https://img.freepik.com/free-photo/cute-animals-group-white-background_23-2150038541.jpg?w=996&t=st=1685931833~exp=1685932433~hmac=f204315c4d479f416fa02ac86c37707a6fd26f0ca885501a13fe2291bae84a6a" alt="" />
+            <img src={social} alt="" />
             <p>Let them Socialize</p>
           </div>
           <div className={styles.three}>
-            <img src="https://img.freepik.com/free-photo/beautiful-pet-portrait-dog-with-food_23-2149218445.jpg?w=1060&t=st=1685933723~exp=1685934323~hmac=8390850039ddc514ce03e238123135063fa22ac627d8e161bbe3495f8d5e6b79" alt="" />
+            <img src={dogFood} alt="" />
             <p>Healthy Diet is Crucial</p>
           </div>
           <div className={styles.four}>
-            <img src="https://img.freepik.com/free-photo/close-up-veterinary-doctor-taking-care-pet_23-2149267934.jpg?w=1060&t=st=1685933863~exp=1685934463~hmac=fa8af77a7c0d26ac3c7d9d4154a5ccbf04790a5a9766cbf6810291fdd646183e" alt="" />
+            <img src={vet} alt="" />
             <p>Take them to a Vet</p>
           </div>
         </div>

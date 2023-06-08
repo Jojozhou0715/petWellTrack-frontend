@@ -29,6 +29,26 @@ const show = async (id) => {
   }
 }
 
+// const show = async (id) => {
+//   try {
+//     const res = await fetch(`${BASE_URL}/${id}`, {
+//       headers: {
+//         'Authorization': `Bearer ${tokenService.getToken()}` 
+//       },
+//     });
+
+//     if (!res.ok) {
+//       throw new Error('Failed to fetch pet data');
+//     }
+
+//     return res.json();
+//   } catch (error) {
+//     console.log(error);
+//     throw error; // Rethrow the error to be handled by the caller
+//   }
+// };
+
+
 const create = async (petData) => {
   try {
     const res = await fetch(BASE_URL, {
@@ -75,10 +95,34 @@ const deletePet = async (id) => {
   }
 }
 
+async function addPhoto(photoData, petId) {
+  const res = await fetch(`${BASE_URL}/${petId}/add-photo`, {
+    method: 'PUT',
+    headers: {
+      'Authorization': `Bearer ${tokenService.getToken()}`, 
+    },
+    body: photoData
+  })
+  return await res.json()
+}
+
+// async function addMedicalRecord(medicalRecordData, petId) {
+//   const res = await fetch(`${BASE_URL}/${petId}/add-medical-record`, {
+//     method: 'PUT',
+//     headers: {
+//       'Authorization': `Bearer ${tokenService.getToken()}`, 
+//     },
+//     body: medicalRecordData
+//   })
+//   return await res.json()
+// }
+
+
 export { 
   index,
   show,
   create,
   update,
-  deletePet
+  deletePet,
+  addPhoto
 }

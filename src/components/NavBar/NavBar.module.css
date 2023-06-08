@@ -1,11 +1,5 @@
 .container {
-    /* background: #a2cced; */
-    /* background: #92c2ea; */
-    /* background: #76bfdb; */
-    /* top: 0;  */
-    /* z-index: 1000;
-    width: 100%;
-    top: 0; */
+    /* z-index: 1000;*/
     height: 70px;
     display: flex;
     justify-content: space-between;
@@ -13,26 +7,6 @@
     align-items: center;
     box-shadow: 1px 2px 8px 2px #d6d3d3;
   }
-
-  /* .landingNavLink{
-    text-decoration: none;
-    font-size: 20px;
-    color: #1f1f21;
-    font-weight: 500;  
-  } */
-
-  /* .landingNav {
-    background: white;
-    top: 0; 
-    z-index: 1000;
-    width: 100%; 
-    top: 0;
-    height: 70px;
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    align-items: center;
-  }  */
   
   .navUl {
     display: flex;
@@ -55,9 +29,36 @@
   } 
   
   .navLink:hover {
-    color: #5c95d7;
+    color: rgb(108, 185, 215);
   }
 
   .image{
     width: 240px;
   }
+
+
+@media (max-width: 767px) {
+  .navLink {
+    font-size: 15px;
+  }
+  .navUl {
+     position: relative;
+     left: -30px;
+     margin: 25px 0;
+     gap: 15px;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .navLink {
+    font-size: 18px;
+  }
+  .navUl {
+     position: relative;
+     left: -100px;
+     margin: 25px 0;
+     gap: 15px;
+  }
+
+}

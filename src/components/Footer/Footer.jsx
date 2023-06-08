@@ -8,7 +8,6 @@ const Footer = () => {
         <>
         <hr></hr>
         <div className={styles.footer}>
-        
         <p>@2023 PetWellTrack. All rights reserved</p> 
         <div className={styles.contact}>   
             <p>contact us</p>   

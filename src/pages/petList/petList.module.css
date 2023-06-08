@@ -1,17 +1,24 @@
 .box{
-    /* margin: 95px 85px; */
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: 0;
     flex-wrap: wrap;
-
+    gap: 50px;
   }
 
+.noFound{
+  min-height: 100vh;
+  min-width: 100vw; 
+  margin-top: -36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(145 197 217);
+}
+
 .container{
-  /* min-height: 100vh;
-  min-width: 100vw;
-  height: 100vh; */
   min-height: 100vh;
   min-width: 100vw;
   /* background: url('https://img.freepik.com/free-vector/frame-with-dogs-vector-white-background_53876-127700.jpg?w=2000')no-repeat center center / cover; */
@@ -20,7 +27,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: -36px;
+  /* margin-top: -36px; */
   /* background-color: #f5f8f9; */
   /* background-color: rgb(251 212 116); */
   /* background-color: rgb(152 218 243); */
@@ -30,44 +37,26 @@
 } 
 
 .image1{
-  /* display: flex;
-  align-items: center;
-  text-align: center;
-  flex-direction: column; */
-  /* min-width: 100vw; */
   width: 100%;
   height: 80px;
   /* background: url('https://img.freepik.com/premium-vector/seamless-pattern-with-orange-paw-prints-bones_197792-128.jpg?w=826') no-repeat center center / cover; */
   background: url('https://img.freepik.com/free-photo/top-view-small-dog-treats-shape-bone_23-2148949619.jpg?w=740&t=st=1685858800~exp=1685859400~hmac=9c0982fa5a3605afc0c4a2474ff07cff1c6708c903cbde2d9484be0a0fa60cb3') no-repeat center center / cover;
   /* background-color: rgb(125 209 243); */
   position: relative;
-  top: -36px;
   box-shadow: 1px 2px 8px 2px #d5d3d3
 }
 
-/* .box{
-  background-color: #f7f7f7;
-  width: 97%;
-  align-items: center;
-  border-radius: .3rem;
-  box-shadow: 1px 2px 8px 2px #bfbdbd;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 20px;
-} */
-
   .singlePet{
     position: relative;
-    top: -35px;
+    /* top: -20px; */
     text-align: center;
     color: white;
     padding: 15px;
-    height: 440px;
-    width: 345px;
+    height: 465px;
+    width: 350px;
     background-color: #fbfbfb;
     /* margin-top: 30px; */
-    margin: 25px;
+    /* margin: 25px; */
     border-radius: .3rem;
      /* box-shadow: -1px 5px 19px -5px black; */
     box-shadow: 1px 2px 8px 2px #d7d4d4;
@@ -77,7 +66,7 @@
   .image{
     height: 320px;
     border-radius: .3rem;
-    width: 345px;
+    width: 320px;
     box-shadow: 1px 2px 8px 2px #d9d8d8
   }
 
@@ -114,3 +103,28 @@
     color: #171f22
 
   }
+
+  @media (max-width: 767px) {
+     .singlePet{
+      position: relative;
+      top: 30px;
+     }
+
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    .singlePet{
+      position: relative;
+      top: 30px;
+     }
+
+  }
+
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .singlePet{
+      position: relative;
+      top: 30px;
+     }
+  }
+  
+

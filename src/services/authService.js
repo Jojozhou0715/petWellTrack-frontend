@@ -10,11 +10,13 @@ async function signup(user) {
         }) 
         console.log(res)
         const json = await res.json()
-        if (json.token) {
+        if (json.token && json.token.trim()) {
             tokenService.setToken(json.token)          
         }
         if (json.err) {
+            console.log(json.err)
             throw new Error(json.err)
+            
         }
     } catch (err) {
         console.log(err)
@@ -38,10 +40,11 @@ async function login(credentials) {
             body: JSON.stringify(credentials),
         })
         const json = await res.json()
-        if (json.token) {
+        if (json.token && json.token.trim()) {
             tokenService.setToken(json.token)
         }
         if (json.err) {
+            console.log(json.err)
             throw new Error(json.err)
         }
     } catch (err) {

@@ -1,31 +1,195 @@
-.box{
+.main {
+      background-color: rgb(145 197 217);
+      /* min-height: 100vh;
+      min-width: 100vw; */
+      padding-bottom: 60px;
+}
+
+.basicInfo{
    display: flex;
-   flex-direction: column;
-   justify-content: center;
+   flex-direction: row;
+   justify-content: space-around;
    align-items: center;
-    height: 600px;
-    width: 400px; 
-    background-color: rgb(244, 239, 231);
+   border-radius: .4rem;
+   height: 300px;
+   width: 550px; 
+   /* margin-right: 40px; */
+    /* background-color: rgb(235, 241, 243); */
+   background-color: rgb(249, 249, 249);
+   box-shadow: 1px 2px 8px 2px #7e7d7d;
+   
 }
 
 .container{
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     flex-direction: row;
-    min-height: 100vh;
-    min-width: 100vw;
+    flex-wrap: wrap;
+    /* min-height: 100vh; */
+    /* min-width: 100vw; */
+    padding: 60px 0;
+    gap: 60px;
     /* background-color: rgb(251 212 116); */
     /* background-color: rgb(152 218 243); */
-    background-color: rgb(158 203 221);
-    background-color: rgb(145 197 217);
+    /* background-color: rgb(158 203 221); */
+  
+}
+
+
+
+.image{
+    height: 200px;
+    width: 200px;
+    border-radius: 17rem;
+    border: .6rem solid rgb(164, 206, 223);
+}
+
+.info{
+    position: relative;
+    top: -25px;
+    left: -30px;
+    margin: 0;
+}
+
+.basicH5{
+    margin: 25px 0 10px 0;
+    font-size: 35px;
+    color: rgb(3, 27, 36);
+}
+
+.basicP{
+    /* margin: 20px 0; */
+    font-size: 23px;
+}
+
+.edit{
+    height: 32px;
+    width: 72px;
+    margin-right: 10px;
+    background-color: rgb(164, 206, 223);
+    border: none;
+    border-radius: .2rem;
+    box-shadow: 1px 1px 1px 1px #c5c3c3;
+    font-size: 18px;
+}
+
+.edit:hover {
+    color: white;
+}
+
+.delete{
+    height: 32px;
+    width: 72px;
+    background-color: rgb(164, 206, 223);
+    border: none;
+    border-radius: .2rem;
+    font-size: 18px;
+    box-shadow: 1px 1px 1px 1px #c5c3c3;
+}
+
+.delete:hover{
+    color: white;
+}
+
+.box span {
+    font-weight: 600;
+
+}
+
+.box p {
+    font-size: 23px;
+    margin: 10px 0;
 }
 
 .box h5{
-    margin: 10px;
+    margin: 25px 0 13px 0;
+    color: rgb(3, 27, 36);
+    font-weight: 700;
+}
+.box{
+    background-color: white;
+    width: 520px;
+    height: 300px;
+    border-radius: .4rem;
+    /* text-align: center; */
+    padding-left: 60px;
+    box-shadow: 1px 2px 8px 2px #7e7d7d;
 }
 
-.image{
-    height: 300px;
+.recordImg{
+    height: 750px;
+    width: 580px;
+    position: relative;
+    top: -50px;
+}
+
+.medical{
+    background-color: rgb(249, 249, 249);
+    height: 880px;
+    width: 780px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: .4rem;
+    box-shadow: 1px 2px 8px 2px #7e7d7d;
+}
+
+.medH4{
+    font-size: 27px;
+    position: relative;
+    font-weight: 600;
+    left: -189px;
+    /* top: -20px; */
+    color: rgb(3, 27, 36);
+}
+
+.medImg{
+    position: relative;
+    /* bottom: 10px; */
+}
+
+@media (max-width: 767px) {
+  .medical{
     width: 400px;
+    height: 600px;
+
+  }
+  .medH4{
+    font-size: 25px;
+    position: relative;
+    left: -70px;
+    top: 10px;
+  }
+  .recordImg{
+    height: 470px;
+    width: 330px;
+    /* position: relative;
+    left: -50px; */
+  }
+  .basicH5{
+    font-size: 25px;
+  }
+  .basicP{
+    font-size: 20px;
+  }
+  .basicInfo{
+    width: 350px;
+  }
+  .info{
+    position: relative;
+    left: 38px;
+  }
+  .box{
+    width: 350px;
+    height: 380px;
+  }
+  .image{
+    position: relative;
+    left: 15px;
+  }
+
 }

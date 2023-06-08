@@ -5,14 +5,14 @@ import * as authService from '../../services/authService'
 
 const LoginForm = (props) => {
     const navigate = useNavigate()
-    const [errMsg, setErrMsg] = useState([''])
+    const [message, setMessage] = useState('')
     const [formData, setFormData] = useState({
         email: '',
         password: '',
     })
     
     const getErrMsg = (msg) => {
-            setErrMsg(msg)
+        setMessage(msg)
         }
 
     const handleChange = (e) => {
@@ -27,7 +27,7 @@ const LoginForm = (props) => {
             props.handleSignupOrLogin()
             navigate('/')
         } catch (err) {
-            getErrMsg(err.errMsg)
+            getErrMsg(err.message)
         }
     }
 
@@ -41,7 +41,8 @@ return (
         <div className={styles.loginBox}>
         {/* <Link to='/'><img className={styles.image} src={logo} alt="logo"/></Link> */}
         <div className={styles.loginHeader}>
-            <p className={styles.welcome}>Welcome back</p>
+            <p className={styles.welcome}> Accout Login</p>
+            <p className={styles.errMsg}>{message}</p>
         </div>
     <form className={styles.loginForm} onSubmit={handleSubmit}>
         <div className={styles.loginInputs}>
