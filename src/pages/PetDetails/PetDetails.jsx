@@ -2,7 +2,6 @@ import { useState, useEffect } from "react"
 import { useParams, Link } from "react-router-dom"
 import styles from './PetDetails.module.css'
 import Carousel from 'react-bootstrap/Carousel'
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import * as petService from '../../services/petService'
 
