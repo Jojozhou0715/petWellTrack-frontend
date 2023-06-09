@@ -1,4 +1,4 @@
-import styles from './petList.module.css'
+import styles from './PetList.module.css'
 import { Link } from 'react-router-dom'
 
 const PetList = (props) =>{

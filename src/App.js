@@ -9,7 +9,7 @@ import * as petService from './services/petService'
 import Login from './pages/Login/Login'
 import Signup from './pages/Signup/Signup'
 import Landing from './pages/Landing/Landing'
-import PetList from './pages/PetList/petList'
+import PetList from './pages/PetList/PetList'
 import PetDetails from './pages/PetDetails/PetDetails'
 import AddPet from './pages/AddPet/AddPet';
 import EditPet from './pages/EditPet/EditPet';
