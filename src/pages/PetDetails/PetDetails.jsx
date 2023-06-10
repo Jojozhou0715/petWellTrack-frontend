@@ -24,7 +24,7 @@ const PetDetails = (props) => {
     if (!pet) return <h1>Loading...</h1>
 
     return (
-        <main className={styles.main}>
+        <section className={styles.main}>
         <div className={styles.container}>
             {/* <div className={styles.box}>  */}
                 <div className={styles.basicInfo}>
@@ -69,7 +69,7 @@ const PetDetails = (props) => {
            </div> 
                 {/* <img className={styles.recordImg} src={pet.medicalRecord} alt={pet.medicalRecord}/>  */}
             </div>
-        </main>
+        </section>
 
     )
 }

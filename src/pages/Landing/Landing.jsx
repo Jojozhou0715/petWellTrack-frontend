@@ -6,7 +6,7 @@ import social from '../../images/social.jpg'
 
 const Landing = (props) => {
   return (
-    <main>
+    <section className={styles.main}>
         <div className={styles.head}>
           <div className={styles.divH2}>
             <h2>Brightening Your Pet's <br />Wellness Journey</h2>
@@ -98,7 +98,7 @@ const Landing = (props) => {
           </div>
          <img src="https://img.freepik.com/free-photo/top-view-hands-protecting-paw-print-animal-day_23-2148668906.jpg?w=996&t=st=1685987967~exp=1685988567~hmac=8dd02a329e6f68bbc7ccca1752ae7802f9a76e1116db9c9f13bf3a23b1cc5095" alt="" />
         </div>
-    </main>
+    </section>
   )
 }
 

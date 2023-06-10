@@ -15,7 +15,7 @@
     align-items: center;
     width: 15.5em;
     height: 1.7em;
-    margin-bottom: 1rem;
+    margin-bottom: 1.1rem;
     font-size: 1.3rem;
     border-radius: 0.3rem;
     border: .01rem solid black;
@@ -24,12 +24,12 @@
 .formBox{
   padding-bottom: 30px;
   position: relative;
-  top: -11px;
+  top: 13px;
 }
 
 .box{
     background-color: white;  
-    height: 760px;
+    height: 725px;
     width: 500px;
     position: relative;
     left: -50px;
@@ -45,11 +45,11 @@
     font-size: 30px;
     position: relative;
     left: -46px;
-    top: -8px;
+    top: -10px;
 }
 
 .save{
-    width: 21.7em;
+    width: 21.4em;
     height: 2.8em;
     position: relative;
     left: 3px;
@@ -72,7 +72,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 15.7em;
+    width: 15.5em;
     height: 1.4em;
     margin-bottom: 1rem;
     font-size: 1.3rem;
@@ -85,7 +85,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 15.75em;
+    width: 15.5em;
     height: 1.75em;
     margin-bottom: 1rem;
     font-size: 1.3rem;

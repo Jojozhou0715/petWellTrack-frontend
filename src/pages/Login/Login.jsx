@@ -32,7 +32,6 @@ const LoginForm = (props) => {
     }
 
 return (
-    <>  
     <section className={styles.section}>
         {/* <div className={styles.loginLeft}> */}
         {/* <img className={styles.loginImg} src="https://cdn.pixabay.com/photo/2017/08/07/18/57/dog-2606759_1280.jpg" alt="" /> */}
@@ -71,7 +70,6 @@ return (
     </form>
     </div>
     </section>
-</>
     )
 }
 

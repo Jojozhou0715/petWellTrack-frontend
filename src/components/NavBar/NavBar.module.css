@@ -6,6 +6,7 @@
     /* position: fixed; */
     align-items: center;
     box-shadow: 1px 2px 8px 2px #d6d3d3;
+    
   }
   
   .navUl {
@@ -39,7 +40,7 @@
 
 @media (max-width: 767px) {
   .navLink {
-    font-size: 15px;
+    font-size: 16px;
   }
   .navUl {
      position: relative;
@@ -51,14 +52,14 @@
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .navLink {
+  /* .navLink {
     font-size: 18px;
-  }
-  .navUl {
+  } */
+  /* .navUl {
      position: relative;
-     left: -100px;
+     left: -20px;
      margin: 25px 0;
      gap: 15px;
-  }
+  } */
 
 }

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import styles from './NavBar.module.css'
 import logo from '../../images/PetWellTrack3.png'
 
-const NavBar = ({ user, handleLogout, isLandingPage}) => {
+const NavBar = ({ user, handleLogout}) => {
   // const navbarClassName = isLandingPage ? styles.landingNav : styles.container;
   // const navLinkClassName = isLandingPage ? styles.landingNavLink : styles.navLink;
   return (

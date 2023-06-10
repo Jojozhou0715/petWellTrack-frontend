@@ -39,7 +39,6 @@ const SignnupForm = (props) => {
     }
 
 return(
-   <>    
     <section className={styles.section}>
         <div className={styles.signupBox}>
         <div className={styles.header}>
@@ -86,7 +85,6 @@ return(
         </form> 
         </div>
     </section>
-    </>
     
     )
 

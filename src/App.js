@@ -13,6 +13,7 @@ import PetList from './pages/PetList/PetList'
 import PetDetails from './pages/PetDetails/PetDetails'
 import AddPet from './pages/AddPet/AddPet';
 import EditPet from './pages/EditPet/EditPet';
+import Contact from './pages/Contact/Contact'
 
 //components
 import NavBar from './components/NavBar/NavBar';
@@ -132,10 +133,11 @@ function App() {
   }, [user])
 
   return (
-    <>
+    <main>
     <NavBar user={user} handleLogout={handleLogout} />
     <Routes>
     <Route path='/' element={<Landing user={user} handleLogout={handleLogout}/>} />
+    <Route path='/contact' element={<Contact user={user}/>} />
     {/* <Route path='/logout' element={<Logout />} /> */}
     <Route path='/login' element={<Login handleSignupOrLogin={handleSignupOrLogin} />} />
     <Route path='/signup' element={<Signup handleSignupOrLogin={handleSignupOrLogin} />} />
@@ -165,7 +167,7 @@ function App() {
     />
    </Routes> 
    <Footer/>
-   </>
+   </main>
 
   );
 }

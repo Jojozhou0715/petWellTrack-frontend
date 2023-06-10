@@ -21,7 +21,7 @@ if (!props.pets || props.pets.length === 0) {
 // console.log(minHeight)
 
 return( 
-    <main>
+    <section className={styles.main}>
     {/* <div className={styles.image1}> <h2 className={styles.h2}>Welcome back, {props.profile.name[0].toUpperCase()+ props.profile.name.substring(1)} !</h2></div> */}
     <div className={styles.image1}>
         <h2 className={styles.h2}>Welcome back, {props.profile && props.profile.name ? props.profile.name[0].toUpperCase() + props.profile.name.substring(1) : ''} !</h2>
@@ -47,8 +47,7 @@ return(
         ))}
     </div>
     </div>
-    </main>
-
+    </section>
   );
 };
 

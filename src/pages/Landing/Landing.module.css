@@ -1,396 +1,405 @@
 body {
-    /* background-color: #b3d6f0; */
-    background-color: white;
-    /* color: rgb(254, 216, 120); */
-    font-size: 30px;
-    
-  }
- 
-.head {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  width: 100%;
-  background: url('https://www.thelist.com/img/gallery/how-to-tell-if-your-pet-is-really-sick/l-intro-1628618761.jpg')no-repeat center center / cover;
-  height: 450px;
+  /* background-color: #b3d6f0; */
+  background-color: white;
+  /* color: rgb(254, 216, 120); */
+  font-size: 30px;
   
 }
 
+.head {
+display: flex;
+align-items: center;
+text-align: center;
+flex-direction: column;
+width: 100%;
+background: url('https://www.thelist.com/img/gallery/how-to-tell-if-your-pet-is-really-sick/l-intro-1628618761.jpg')no-repeat center center / cover;
+height: 450px;
+
+}
+
 .head h2{
-  font-size: 35px;
-  color: rgb(22, 21, 21);
-  font-weight: 700;
-  position: relative;
-  left: -21px;
-  text-align: left;
-  top: 45px;
+font-size: 35px;
+color: rgb(22, 21, 21);
+font-weight: 700;
+position: relative;
+left: -21px;
+text-align: left;
+top: 45px;
 }
 
 .head p{
-  font-size: 20px;
-  margin: 5px;
-  text-align: left;
-  color: rgb(22, 21, 21);
-  position: relative;
-  top: 65px;
-  line-height: 1.1;
+font-size: 20px;
+margin: 5px;
+text-align: left;
+color: rgb(22, 21, 21);
+position: relative;
+top: 65px;
+line-height: 1.1;
 }
 
 .divP{
-  position: relative;
-  top: 70px;
-  left: -47px;
+position: relative;
+top: 70px;
+left: -47px;
 }
 
 .divH2{
-  position: relative;
-  top: 80px;
+position: relative;
+top: 80px;
 }
 
 .landingText {
-  margin-top: 900px;
-  color: #2a2825;
+margin-top: 900px;
+color: #2a2825;
 }
 
 .container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 .box{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
 }
 
 .container h5{
-  font-size: 35px;
-  font-weight: 600;
+font-size: 35px;
+font-weight: 600;
 }
 
 .title{
-  margin: 55px 0;
+margin: 55px 0;
 }
 
 .container img{
-  height: 190px;
-  width: 190px;
-  border-radius: 7rem;
-  margin: 18px;
+height: 190px;
+width: 190px;
+border-radius: 7rem;
+margin: 18px;
 }
 
 .container p{
-  font-size: 20px;
-  margin-top: 0;
+font-size: 20px;
+margin-top: 0;
 }
 
 .container{
-  color: black;
-  font-size: 40px;
+color: black;
+font-size: 40px;
 }
 
 .dog{
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
 }
 
 .cat{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .horse{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .bird{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .rabbit{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .hamster{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .goal{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  background-color: rgb(152 218 243);
-  margin-top: 60px;
-  padding: 60px 0;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+background-color: rgb(152 218 243);
+margin-top: 60px;
+padding: 60px 0;
 }
 
 .goal h5{
-  font-size: 33px;
-  position: relative;
-  top: -20px;
-  color: rgb(22, 21, 21);
-  font-weight: 650;
+font-size: 33px;
+position: relative;
+top: -20px;
+color: rgb(22, 21, 21);
+font-weight: 650;
 }
 
 .words{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 500px;
-  position: relative;
-  left: -30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 500px;
+position: relative;
+left: -30px;
 }
 
 
 .goal img{
-  height: 380px;
-  width: 430px;
-  border-radius: 1rem;
-  position: relative;
-  left: 30px;
+height: 380px;
+width: 430px;
+border-radius: 1rem;
+position: relative;
+left: 30px;
 }
 
 .goal p{
-  font-size: 18px;
-  text-align: left;
-  line-height: 1.5;
-  margin: 8px 0;
+font-size: 18px;
+text-align: left;
+line-height: 1.5;
+margin: 8px 0;
 }
 
 .tips{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
 }
 
 .tips img{
-  height: 190px;
-  width: 285px;
-  border-radius: 1rem;
+height: 190px;
+width: 285px;
+border-radius: 1rem;
 }
 
 .tips p{
-  font-size: 22px;
-  margin-top: 20px;
+font-size: 22px;
+margin-top: 20px;
 }
 
 .one{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 16.5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 16.5px;
 }
 
 .two{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 16.5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 16.5px;
 }
 
 .three{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 16.5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 16.5px;
 }
 
 .four{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 16.5px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 16.5px;
 }
 
 .tipsContainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .tipsContainer h5{
-  font-size: 30px;
-  margin: 55px 0;
-  font-weight: 600;
+font-size: 30px;
+margin: 55px 0;
+font-weight: 600;
 }
 
 .about{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 95%;
-  margin: 50px auto;
-  padding: 50px 0;
-  position: relative;
-  border-radius: .3rem;
-  box-shadow: 1px 2px 8px 2px #d5d3d3;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 95%;
+margin: 50px auto;
+padding: 50px 0;
+position: relative;
+border-radius: .3rem;
+box-shadow: 1px 2px 8px 2px #d5d3d3;
 }
 
 .about img{
-  /* background: url('https://img.freepik.com/free-photo/owner-s-hand-stroking-her-dog-head-sunlight_23-2148045798.jpg?w=900&t=st=1685986131~exp=1685986731~hmac=51416889f8c866c3bc764a0f73fad9a286dfd93fc568ca430d2b7924df4b2282')no-repeat center center / cover; */
-  height: 450px;
-  width: 450px;
-  border-radius: 17rem;
+/* background: url('https://img.freepik.com/free-photo/owner-s-hand-stroking-her-dog-head-sunlight_23-2148045798.jpg?w=900&t=st=1685986131~exp=1685986731~hmac=51416889f8c866c3bc764a0f73fad9a286dfd93fc568ca430d2b7924df4b2282')no-repeat center center / cover; */
+height: 450px;
+width: 450px;
+border-radius: 17rem;
 }
 
 .aboutWords{
-  display: flex;
-  flex-direction: column;
-  width: 600px;
+display: flex;
+flex-direction: column;
+width: 600px;
 } 
 
 .about h4{
-  margin: 30px 0;
-  font-weight: 700;
-  font-size: 33px;
-  color: rgb(22, 21, 21);
+margin: 30px 0;
+font-weight: 700;
+font-size: 33px;
+color: rgb(22, 21, 21);
 }
 
 .about p{
-  font-size: 18px;
-  text-align: left;
-  line-height: 1.4;
-  margin: 9px 0;
+font-size: 18px;
+text-align: left;
+line-height: 1.4;
+margin: 9px 0;
 }
 
 
 @media (max-width: 767px) {
-  .head {
-    height: 200px; 
-    background-position: center;
-  }
-  .head h2{
-     display: none;
-  }
-  .head p{
-    display: none;
-  }
-  .goal{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.head {
+  height: 200px; 
+  background-position: center;
+  width: 100%;
+}
+.container{
+  width: 100%;
+}
+.head h2{
+   display: none;
+}
+.head p{
+  display: none;
+}
+.goal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
 
-  .goal img{
-    width: 300px;
-    height: 300px;
-    position: relative;
-    left: 10px;
-  }
+.goal img{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 10px;
 
-  .words{
-    width: 350px;
-    position: relative;
-    left: 30px;
-    top: 45px;
-  }
-  .tipsContainer h5{
-    font-size: 22px;
-    margin: 55px 0;
-    font-weight: 700;
-  }
-  .about{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    border: none;
-    box-shadow: none;
-    margin: 0;
- 
-  }
-  .about img{
-    height: 380px;
-    width: 380px;
-    border-radius: 17rem;
-    position: relative;
-    left: 70px;
-    top: 50px;
-    margin-bottom: 40px;
-  }
-  .aboutWords{
-    width: 430px;
-    position: relative;
-    left: 40px;
-  }
-  .aboutWords p{
-    font-size: 16px;
-  }
+}
+
+.words{
+  width: 350px;
+  position: relative;
+  left: 30px;
+  top: 45px;
+
+}
+.tipsContainer h5{
+  font-size: 22px;
+  margin: 55px 0;
+  font-weight: 700;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+
+}
+.about img{
+  height: 330px;
+  width: 330px;
+  border-radius: 17rem;
+  position: relative;
+  left: 70px;
+  top: 50px;
+  margin-bottom: 40px;
+}
+.aboutWords{
+  width: 400px;
+  position: relative;
+  left: 40px;
+}
+.aboutWords p{
+  font-size: 16px;
+}
 
 }
 
 
 @media (min-width: 768px) and (max-width: 1000px) {
-  .goal{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.goal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-  .goal img{
-    width: 300px;
-    height: 300px;
-    position: relative;
-    left: 10px;
-  }
+.goal img{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  left: 10px;
+}
 
-  .words{
-    width: 350px;
-    position: relative;
-    left: 30px;
-    top: 45px;
-  }
-  .about{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    border: none;
-    box-shadow: none;
-    margin: 0;
- 
-  }
-  .about img{
-    height: 380px;
-    width: 380px;
-    border-radius: 17rem;
-    position: relative;
-    left: 295px;
-    top: 50px;
-    margin-bottom: 40px;
-  }
-  .aboutWords{
-    width: 500px;
-    position: relative;
-    left: 240px;
-  }
+.words{
+  width: 350px;
+  position: relative;
+  left: 30px;
+  top: 45px;
+}
+.about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+
+}
+.about img{
+  height: 380px;
+  width: 380px;
+  border-radius: 17rem;
+  position: relative;
+  left: 295px;
+  top: 50px;
+  margin-bottom: 40px;
+}
+.aboutWords{
+  width: 500px;
+  position: relative;
+  left: 240px;
+}
 
 }
 
 
 @media (min-width: 1001px) and (max-width: 1200px) {
-  
+
 
 }
+
+
 

@@ -46,7 +46,7 @@ const AddPet = (props) => {
     }
 
 return (
-  <main className={styles.container}>
+  <section className={styles.container}>
      <div className={styles.box}>
             <h5>Add A Pet</h5>
     <form onSubmit={handleSubmit} className={styles.formBox}>
@@ -157,7 +157,7 @@ return (
             <button className={styles.save} type="submit" >SAVE</button>        
         </form> 
         </div>
-    </main>
+    </section>
 )
 }
 
