@@ -54,7 +54,7 @@ const PetDetails = (props) => {
                 </div>            
                </div>
                <div className={styles.medical}>
-                <h5 className={styles.medH4}>Medical Record:</h5>
+                <h5 className={styles.medH4}>Medical Records:</h5>
                 {/* <div className="slideshow-container"> */}
                <div className={styles.medImg}>
             <Carousel> 

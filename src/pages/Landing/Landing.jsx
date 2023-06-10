@@ -3,6 +3,7 @@ import dogLove from '../../images/eyes-closed.jpg'
 import dogFood from '../../images/beautiful-pet-portrait-dog-with-food.jpg'
 import vet from '../../images/vet.jpg'
 import social from '../../images/social.jpg'
+import hands from '../../images/hands.jpg'
 
 const Landing = (props) => {
   return (
@@ -96,7 +97,7 @@ const Landing = (props) => {
               PetWellTrack. Say goodbye to the hassle of keeping track of paperwork and welcome a more 
               organized and efficient approach to pet care. Join PetWellTrack today and take control of your pet's health journey. </p>
           </div>
-         <img src="https://img.freepik.com/free-photo/top-view-hands-protecting-paw-print-animal-day_23-2148668906.jpg?w=996&t=st=1685987967~exp=1685988567~hmac=8dd02a329e6f68bbc7ccca1752ae7802f9a76e1116db9c9f13bf3a23b1cc5095" alt="" />
+         <img src={hands} alt="hands" />
         </div>
     </section>
   )

@@ -3,6 +3,8 @@ body {
   background-color: white;
   /* color: rgb(254, 216, 120); */
   font-size: 30px;
+  /* font-family: 'Geologica', sans-serif; */
+  /* font-family: 'Cabin', sans-serif; */
   
 }
 
@@ -19,7 +21,7 @@ height: 450px;
 
 .head h2{
 font-size: 35px;
-color: rgb(22, 21, 21);
+color: rgb(12, 12, 12);
 font-weight: 700;
 position: relative;
 left: -21px;
@@ -31,7 +33,7 @@ top: 45px;
 font-size: 20px;
 margin: 5px;
 text-align: left;
-color: rgb(22, 21, 21);
+color: rgb(12, 12, 12);
 position: relative;
 top: 65px;
 line-height: 1.1;
@@ -70,6 +72,7 @@ flex-wrap: wrap;
 .container h5{
 font-size: 35px;
 font-weight: 600;
+color: rgb(12, 12, 12);
 }
 
 .title{
@@ -84,8 +87,9 @@ margin: 18px;
 }
 
 .container p{
-font-size: 20px;
+font-size: 20.5px;
 margin-top: 0;
+font-weight: 500;
 }
 
 .container{
@@ -141,10 +145,10 @@ padding: 60px 0;
 }
 
 .goal h5{
-font-size: 33px;
+font-size: 33.2px;
 position: relative;
 top: -20px;
-color: rgb(22, 21, 21);
+color: rgb(12, 12, 12);
 font-weight: 650;
 }
 
@@ -167,7 +171,7 @@ left: 30px;
 }
 
 .goal p{
-font-size: 18px;
+font-size: 18.3px;
 text-align: left;
 line-height: 1.5;
 margin: 8px 0;
@@ -187,8 +191,9 @@ border-radius: 1rem;
 }
 
 .tips p{
-font-size: 22px;
+font-size: 21.2px;
 margin-top: 20px;
+font-weight: 500;
 }
 
 .one{
@@ -221,6 +226,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 margin: 16.5px;
+
 }
 
 .tipsContainer{
@@ -249,8 +255,8 @@ box-shadow: 1px 2px 8px 2px #d5d3d3;
 
 .about img{
 /* background: url('https://img.freepik.com/free-photo/owner-s-hand-stroking-her-dog-head-sunlight_23-2148045798.jpg?w=900&t=st=1685986131~exp=1685986731~hmac=51416889f8c866c3bc764a0f73fad9a286dfd93fc568ca430d2b7924df4b2282')no-repeat center center / cover; */
-height: 450px;
-width: 450px;
+height: 430px;
+width: 430px;
 border-radius: 17rem;
 }
 
@@ -263,8 +269,8 @@ width: 600px;
 .about h4{
 margin: 30px 0;
 font-weight: 700;
-font-size: 33px;
-color: rgb(22, 21, 21);
+font-size: 33.2px;
+color: rgb(12, 12, 12);
 }
 
 .about p{
@@ -395,11 +401,6 @@ margin: 9px 0;
 
 }
 
-
-@media (min-width: 1001px) and (max-width: 1200px) {
-
-
-}
 
 
 
