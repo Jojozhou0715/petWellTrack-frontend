@@ -17,8 +17,8 @@ const NavBar = ({ user, handleLogout}) => {
        </ul>
       :
       <ul className={styles.navUl}>
-        <li><Link to='/login' className={styles.navLink}>Login</Link></li>
-        <li><Link to='/signup' className={styles.navLink}>signUp</Link></li>
+        <li><Link to='/login' className={styles.navLink}>Log in</Link></li>
+        <li><Link to='/signup' className={styles.navLink}>Sign up</Link></li>
       </ul>     
     }
     </nav>

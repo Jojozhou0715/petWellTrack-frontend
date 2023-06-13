@@ -1,22 +1,16 @@
 body {
-  /* background-color: #b3d6f0; */
   background-color: white;
-  /* color: rgb(254, 216, 120); */
-  font-size: 30px;
-  /* font-family: 'Geologica', sans-serif; */
-  /* font-family: 'Cabin', sans-serif; */
-  
+  font-size: 30px  
 }
 
 .head {
-display: flex;
-align-items: center;
-text-align: center;
-flex-direction: column;
-width: 100%;
-background: url('https://www.thelist.com/img/gallery/how-to-tell-if-your-pet-is-really-sick/l-intro-1628618761.jpg')no-repeat center center / cover;
-height: 450px;
-
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  background: url('https://www.thelist.com/img/gallery/how-to-tell-if-your-pet-is-really-sick/l-intro-1628618761.jpg')no-repeat center center / cover;
+  height: 450px;  
 }
 
 .head h2{
@@ -60,6 +54,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+/* min-width: 100vw; */
 }
 
 .box{
@@ -100,7 +95,6 @@ font-size: 40px;
 .dog{
 display: flex;
 flex-direction: column;
-/* justify-content: center; */
 align-items: center;
 }
 
@@ -163,8 +157,8 @@ left: -30px;
 
 
 .goal img{
-height: 380px;
-width: 430px;
+height: 360px;
+width: 433px;
 border-radius: 1rem;
 position: relative;
 left: 30px;
@@ -191,9 +185,8 @@ border-radius: 1rem;
 }
 
 .tips p{
-font-size: 21.2px;
+font-size: 21px;
 margin-top: 20px;
-font-weight: 500;
 }
 
 .one{
@@ -236,7 +229,7 @@ align-items: center;
 }
 
 .tipsContainer h5{
-font-size: 30px;
+font-size: 31px;
 margin: 55px 0;
 font-weight: 600;
 }
@@ -254,7 +247,6 @@ box-shadow: 1px 2px 8px 2px #d5d3d3;
 }
 
 .about img{
-/* background: url('https://img.freepik.com/free-photo/owner-s-hand-stroking-her-dog-head-sunlight_23-2148045798.jpg?w=900&t=st=1685986131~exp=1685986731~hmac=51416889f8c866c3bc764a0f73fad9a286dfd93fc568ca430d2b7924df4b2282')no-repeat center center / cover; */
 height: 430px;
 width: 430px;
 border-radius: 17rem;
@@ -302,15 +294,12 @@ margin: 9px 0;
   justify-content: center;
   width: 100%;
 }
-
 .goal img{
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 270px;
   position: relative;
   left: 10px;
-
 }
-
 .words{
   width: 350px;
   position: relative;
@@ -331,7 +320,6 @@ margin: 9px 0;
   border: none;
   box-shadow: none;
   margin: 0;
-
 }
 .about img{
   height: 330px;
@@ -348,11 +336,9 @@ margin: 9px 0;
   left: 40px;
 }
 .aboutWords p{
-  font-size: 16px;
+  font-size: 17px;
 }
-
 }
-
 
 @media (min-width: 768px) and (max-width: 1000px) {
 .goal{
@@ -360,14 +346,12 @@ margin: 9px 0;
   flex-direction: column;
   justify-content: center;
 }
-
 .goal img{
-  width: 300px;
-  height: 300px;
+  width: 310px;
+  height: 270px;
   position: relative;
   left: 10px;
 }
-
 .words{
   width: 350px;
   position: relative;
@@ -382,7 +366,6 @@ margin: 9px 0;
   border: none;
   box-shadow: none;
   margin: 0;
-
 }
 .about img{
   height: 380px;

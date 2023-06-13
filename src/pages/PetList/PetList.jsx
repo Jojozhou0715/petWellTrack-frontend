@@ -11,7 +11,7 @@ if (!props.pets || props.pets.length === 0) {
     <div className={styles.image1}>
           <h2 className={styles.h2}>Welcome back, {props.profile && props.profile.name ? props.profile.name[0].toUpperCase() + props.profile.name.substring(1) : ''} !</h2>
         </div>
-    <div className={styles.noFound}>No pets found</div>
+    <div className={styles.noFound}><h1>No pets found</h1></div>
     </>
     )
 }

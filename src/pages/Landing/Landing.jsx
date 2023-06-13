@@ -4,6 +4,12 @@ import dogFood from '../../images/beautiful-pet-portrait-dog-with-food.jpg'
 import vet from '../../images/vet.jpg'
 import social from '../../images/social.jpg'
 import hands from '../../images/hands.jpg'
+import hamster from '../../images/hamster.jpg'
+import horse from '../../images/horse.jpg'
+import rabbit from '../../images/rabbit.jpg'
+import cat from '../../images/cat.jpg'
+import dog from '../../images/dog.jpg'
+import bird from '../../images/bird.jpg'
 
 const Landing = (props) => {
   return (
@@ -26,27 +32,27 @@ const Landing = (props) => {
           <div className={styles.title}><h5>Categories</h5></div>
           <div className={styles.box}>
           <div className={styles.dog}>
-            <img src="https://img.freepik.com/free-photo/portrait-dog-isolated-white-created-using-generative-ai_60438-2499.jpg?w=740&t=st=1685917016~exp=1685917616~hmac=5f144f33b6a72e5541454d013389f2a3de619afc95617175b3bb4c18b660558e" alt="" />
+            <img src={dog} alt="" />
             <p>Dog</p>
           </div>
           <div className={styles.cat}>
-            <img src="https://img.freepik.com/free-photo/british-shorthair-kitty-with-monochrome-wall-her_23-2148955105.jpg?w=740&t=st=1685915471~exp=1685916071~hmac=77acb2595dc8d89a635cbc0ba6c916800246b7bd59aadd21bd012232579b880a" alt="" />
+            <img src={cat} alt="" />
             <p>Cat</p>
           </div>
           <div className={styles.horse}>
-            <img src="https://img.freepik.com/free-photo/beautiful-brown-horse-outdoors_23-2148573800.jpg?w=740&t=st=1685915585~exp=1685916185~hmac=e54d5adab5e57b07dcbdf3f3db468a56d9e8ddb1418b21e9db7a869aa8e5c3d3" alt="" />
+            <img src={horse} alt="" />
             <p>Horse</p>
           </div>         
           <div className={styles.rabbit}>
-            <img src="https://img.freepik.com/free-photo/rabbit-with-ornament-red-heart-front_23-2148010820.jpg?w=740&t=st=1685915967~exp=1685916567~hmac=04a805fd9224c74801afc4763e3e96c00d319ffdd843a9b25c1ed99a15960f37" alt="" />
+            <img src={rabbit} alt="" />
             <p>Rabbit</p>
           </div>
           <div className={styles.hamster}>
-            <img src="https://img.freepik.com/free-photo/beautiful-guinea-pig-pet-portrait_23-2149152067.jpg?w=1060&t=st=1685916058~exp=1685916658~hmac=4a0c03928738a6090f0a7bfaec6bf5d58ecd889881b1a3ce4489b8571d250cb1" alt="" />
+            <img src={hamster} alt="hamster" />
             <p>Hamster</p>
           </div>
           <div className={styles.bird}>
-            <img src="https://img.freepik.com/free-photo/closeup-shot-sulphur-crested-cockatoo-perched-branch-yellow-background_181624-36192.jpg?w=740&t=st=1685932244~exp=1685932844~hmac=cbd3d03368d372cb38416ef3af23cb076ee0dfa87d25daaa760806532fe4cfcd" alt="" />
+            <img src={bird} alt="" />
             <p>Bird</p>
           </div>
           </div>

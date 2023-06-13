@@ -138,7 +138,6 @@ function App() {
     <Routes>
     <Route path='/' element={<Landing user={user} handleLogout={handleLogout}/>} />
     <Route path='/contact' element={<Contact user={user}/>} />
-    {/* <Route path='/logout' element={<Logout />} /> */}
     <Route path='/login' element={<Login handleSignupOrLogin={handleSignupOrLogin} />} />
     <Route path='/signup' element={<Signup handleSignupOrLogin={handleSignupOrLogin} />} />
     <Route path='/mypets' element={

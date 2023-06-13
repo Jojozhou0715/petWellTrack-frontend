@@ -29,26 +29,6 @@ const show = async (id) => {
   }
 }
 
-// const show = async (id) => {
-//   try {
-//     const res = await fetch(`${BASE_URL}/${id}`, {
-//       headers: {
-//         'Authorization': `Bearer ${tokenService.getToken()}` 
-//       },
-//     });
-
-//     if (!res.ok) {
-//       throw new Error('Failed to fetch pet data');
-//     }
-
-//     return res.json();
-//   } catch (error) {
-//     console.log(error);
-//     throw error; // Rethrow the error to be handled by the caller
-//   }
-// };
-
-
 const create = async (petData) => {
   try {
     const res = await fetch(BASE_URL, {

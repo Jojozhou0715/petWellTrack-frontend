@@ -4,20 +4,6 @@ function setToken(token) {
   localStorage.setItem('token', token)
 }
 
-// function getToken() {
-//   let token = localStorage.getItem('token')
-//   console.log(token)
-//   if (token) {
-//     const payload = jwt_decode(token)
-//     if (payload.exp < Date.now() / 1000) {
-//       localStorage.removeItem('token')
-//     }
-//   } else {
-//     localStorage.removeItem('token')
-//   }
-//   return token
-// }
-
 function getToken() {
   let token = localStorage.getItem('token');
   // console.log('Token:', token);
