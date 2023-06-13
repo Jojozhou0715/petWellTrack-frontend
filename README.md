@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+PetWellTrack
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link to Deployed Application: https://pet-well-track.herokuapp.com/
 
-## Available Scripts
+Checkout the PetWellTrack backend built with Express: https://github.com/Jojozhou0715/petWellTrack-backend
 
-In the project directory, you can run:
+PetWellTrack is a comprehensive health tracking app designed to help pet owners monitor and manage the well-being of their beloved pets. Whether you have dogs, cats, or other furry companions, this app offers a user friendly platform to keep all their health records in one place.
 
-### `npm start`
+Technologies used: MERN stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Mongoose Express,
+React,
+Node.js,
+Bootstrap,
+Material.ui,
+Bcrypt,
+JSON Web Token (JWT),
+Heroku
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Screenshots
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img width="1430" alt="Screenshot 2023-06-13 at 3 29 59 PM" src="https://github.com/Jojozhou0715/petwelltrack-frontend/assets/92937414/cd6ef9b1-e2d4-4e49-911d-7f1a39306a0f">
+<img width="1423" alt="Screenshot 2023-06-13 at 3 30 20 PM" src="https://github.com/Jojozhou0715/petwelltrack-frontend/assets/92937414/3e26d1f2-12ce-41ff-bfc8-7056ce045fb0">
+<img width="1428" alt="Screenshot 2023-06-13 at 3 30 46 PM" src="https://github.com/Jojozhou0715/petwelltrack-frontend/assets/92937414/e7ae15fd-1132-44e6-a2e8-68068626890b">
+<img width="1427" alt="Screenshot 2023-06-13 at 3 31 08 PM" src="https://github.com/Jojozhou0715/petwelltrack-frontend/assets/92937414/5b57993c-7360-4d76-82fd-b06eeb8d462a">
+<img width="1426" alt="Screenshot 2023-06-13 at 3 31 30 PM" src="https://github.com/Jojozhou0715/petwelltrack-frontend/assets/92937414/02c3cd01-4c6f-450b-b479-9e718e947d48">
