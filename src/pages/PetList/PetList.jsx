@@ -41,7 +41,7 @@ return(
             <Link className={styles.link} to={`/mypets/${pet._id}`}>
                 <img className={styles.image} src={pet.image ? pet.image : <p>No images</p>} alt={pet.petName}/><br></br>
                 <div className={styles.span}><span>{pet.petName}</span>&nbsp;&nbsp;<span>-</span>&nbsp;&nbsp;<span>{pet.breed}</span><br></br></div>
-                <div className={styles.span}><span>{pet.age} year-old</span></div>
+                <div className={styles.span}><span>{pet.age} years old</span></div>
                 </Link>
             </div>              
         ))}
