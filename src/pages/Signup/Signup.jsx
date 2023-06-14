@@ -81,7 +81,7 @@ return(
                 <div className={styles.registerInput}>
             <button disabled={isFormInvalid()} className={styles.signUp}>SIGNUP</button>
             </div>
-            <p className={styles.registerP}><span className={styles.spanP}>Already sign up?</span> <Link className={styles.loginLink} to="/login">Log in</Link></p> 
+            <p className={styles.registerSpan}><span className={styles.spanP}>Already sign up?</span> <Link className={styles.loginLink} to="/login">Log in</Link></p> 
         </form> 
         </div>
     </section>

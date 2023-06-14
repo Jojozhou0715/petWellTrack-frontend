@@ -24,13 +24,12 @@
     flex-direction: column;
     justify-content: center;
     max-width: 20em;
+
   }
   
   .formContainer{
-    /* margin-bottom: 60px; */
     position: relative;
-    top: -35px;
-
+    top: 1px;
   }
   
   .registerInput{
@@ -41,33 +40,11 @@
     border-radius: 0.3rem;
   }
   
-  /* .signupImg{
-    max-width: 100%;
-    min-width: 100%;
-    max-height: 100%;
-    min-height: 100%; 
-    object-fit: cover;  
-  } */
-  
-  /* .leftContainer {
-    min-height: 100vh;
-    width: 56%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    object-fit: cover;  
-  } */
-  
   .header {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* align-items: center; */
     color: rgb(17, 16, 16);
     font-weight: 500;
-    /* margin-bottom: 2rem; */
     position: relative;
     top: -28px;
     margin-left: -70px;
@@ -78,12 +55,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width: 32%; */
-    width: 440px;
+    width: 430px;
     /* height: 75vh; */
-    height: 560px;
+    height: 540px;
     z-index: 50;
-    /* background-color: #92c2ea; */
     background-color: rgb(246, 248, 250); 
     border-radius: .5rem;
     position: relative;
@@ -96,11 +71,18 @@
     font-size: 22px;
   }
   
-  .registerP{
+  .registerSpan{
     position: relative;
-    top: 13px;
+    top: 14px;
     font-size: 30px;
-    margin-left: 65px;
+    margin-left: 55px;
+  }
+
+  .registerP{
+    /* position: relative;
+    top: 9px; */
+    font-size: 30px;
+    margin-left: 55px;
   }
   
   .signUp{
@@ -112,7 +94,7 @@
     border-radius: .3rem;
     font-size: 16px;
     color: rgb(241, 236, 236);
-    width: 20.67em;
+    width: 20.11em;
     height: 2.73em;
   }
   
@@ -136,8 +118,8 @@
   .errMsg{
     font-size: 19px;
     position: relative;
-    left: 30px;
-    top: -15px;
+    left: 95px;
+    top: 5px;
   }
 
   @media (max-width: 767px) {

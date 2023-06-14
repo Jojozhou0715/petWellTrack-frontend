@@ -17,7 +17,7 @@
     justify-content: center;
     max-width: 20em;
     position: relative;
-    top: -10px;
+    top: 35px;
   }
    
 .loginInputs{
@@ -27,36 +27,14 @@
   align-items: center;
   margin-bottom: 50px;
 }
+
 .loginInput{
   width: 15.5em;
   height: 1.8em;
   margin-bottom: 1rem;
   font-size: 1.3rem;
   border-radius: 0.3rem;
-
 } 
-/* .loginImg{
- max-width: 100%;
-  min-width: 100%;
-  max-height: 100%;
-  min-height: 100%;  
-   width: 400px;
-  height: 400px;  
-   clip-path: polygon(
-     50% 0%,
-    61.8% 38.2%,
-    95.1% 38.2%,
-    68.6% 61.8%,
-    79.4% 95.1%,
-    50% 73.6%,
-    20.6% 95.1%,
-    31.4% 61.8%,
-    4.9% 38.2%,
-    38.2% 38.2% 
-    
-  );
-
-}  */
 
 .loginButton{
   /* margin-top: 3em;
@@ -68,7 +46,7 @@
   border-radius: .3rem;
   font-size: 16px;
   color: white;
-  width: 20.67em;
+  width: 20.11em;
   height: 2.73em;
   left: -1px;
 }
@@ -82,27 +60,15 @@
   top: -110px;
 }
 
-/* .loginLeft{
-  min-height: 100vh;
-  width: 56%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  z-index: 50;
-} */
-
 .loginBox{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* width: 32%; */
-  width: 440px;
+  width: 430px;
   /* height: 75vh; */
-  height: 560px;
+  height: 540px;
   z-index: 50;
-  /* background-color: #92c2ea; */
   background-color: rgb(246, 248, 250); 
   border-radius: .5rem;
   position: relative;
@@ -114,9 +80,8 @@
   color: rgb(5, 5, 5);
   font-size: 30px;
   font-weight: 500;
-  /* margin-bottom: 1.2rem; */
   position: relative;
-  top: 80px;
+  top: 90px;
 }
   
 .registerLink{
@@ -137,11 +102,10 @@
 }
 
 .loginP{
-  /* margin-left: 30px; */
   margin: 0;
   position: relative;
-  right: -30px;
-  bottom: 15px;
+  right: -20px;
+  bottom: 25px;
 }
 
 .image{
@@ -153,8 +117,7 @@
 .errMsg{
   font-size: 19px;
   position: relative;
-  /* left: 20px; */
-  top: 65px;
+  top: 95px;
 }
 
 @media (max-width: 767px) {
